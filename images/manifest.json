@@ -1,0 +1,67 @@
+{
+  "id" : "https://brk34.github.io/krebbb/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in brk34/krebbb project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 2000,
+    "id" : "https://brk34.github.io/krebbb/images/1943-10-10-0/canvas/",
+    "label" : {
+      "none" : [ "1943-10-10-0" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://brk34.github.io/krebbb/images/1943-10-10-0/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://brk34.github.io/krebbb/images/1943-10-10-0/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 63,
+              "height" : 87
+            }, {
+              "width" : 125,
+              "height" : 174
+            }, {
+              "width" : 250,
+              "height" : 348
+            }, {
+              "width" : 500,
+              "height" : 696
+            }, {
+              "width" : 1000,
+              "height" : 1392
+            }, {
+              "width" : 2000,
+              "height" : 2783
+            } ],
+            "profile" : "level0",
+            "width" : 2000,
+            "id" : "https://brk34.github.io/krebbb/images/1943-10-10-0",
+            "type" : "ImageService3",
+            "@context" : "http://iiif.io/api/image/3/context.json",
+            "height" : 2783
+          } ],
+          "format" : "image/jpeg",
+          "width" : 2000,
+          "id" : "https://brk34.github.io/krebbb/images/1943-10-10-0/full/max/0/default.jpg",
+          "type" : "Image",
+          "height" : 2783
+        },
+        "target" : "https://brk34.github.io/krebbb/images/1943-10-10-0/canvas/"
+      } ]
+    } ],
+    "height" : 2783
+  } ]
+}
