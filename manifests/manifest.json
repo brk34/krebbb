@@ -1,0 +1,74 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://brk34.github.io/krebbb/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "[Click to edit label]",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://da64e6ae-fffc-4361-9626-bff7efa99b40",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://60d5b28f-32ec-48c9-9a70-317557fc1f7e",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 2783,
+      "width" : 2000,
+      "images" : [ {
+        "tiles" : [ {
+          "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+          "width" : 1024,
+          "height" : 1024
+        } ],
+        "protocol" : "http://iiif.io/api/image",
+        "sizes" : [ {
+          "width" : 63,
+          "height" : 87
+        }, {
+          "width" : 125,
+          "height" : 174
+        }, {
+          "width" : 250,
+          "height" : 348
+        }, {
+          "width" : 500,
+          "height" : 696
+        }, {
+          "width" : 1000,
+          "height" : 1392
+        }, {
+          "width" : 2000,
+          "height" : 2783
+        } ],
+        "profile" : "level0",
+        "width" : 2000,
+        "id" : "https://brk34.github.io/krebbb/images/1943-10-10-0",
+        "type" : "ImageService3",
+        "@context" : "http://iiif.io/api/image/3/context.json",
+        "height" : 2783,
+        "on" : "http://60d5b28f-32ec-48c9-9a70-317557fc1f7e"
+      } ],
+      "related" : "",
+      "metadata" : [ {
+        "label" : "Label",
+        "value" : "Value"
+      }, {
+        "label" : "Label",
+        "value" : {
+          "@value" : "",
+          "@language" : ""
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
